@@ -1,0 +1,19 @@
+@import "./../../../sass/util/mixins.sass"
+.Jobs
+    &>._view
+        display: flex
+        align-items: center
+        justify-content: flex-end
+        &>span
+            margin-right: 9px
+            color: #888888
+    &>div>.lists
+        &.card
+            +media-only-desktop
+                display: flex
+                flex-wrap: wrap
+                margin: 0 auto
+                justify-content: space-around
+    &>div>._page
+        display: flex
+        justify-content: center

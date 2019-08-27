@@ -1,0 +1,6 @@
+.Filter {
+  margin-bottom: 21px;
+  margin-top: 11px; }
+  @media screen and (max-width: 960px) {
+    .Filter .ant-row > .ant-col {
+      margin-bottom: 13px; } }

@@ -1,0 +1,206 @@
+@import "./../../../../sass/util/vars.sass"
+@import "./../../../../sass/util/mixins.sass"
+.JobItem
+    &>._inner
+        // box-shadow: 0px 0px 0px 1px #d9d9d977
+        margin-bottom: 17px
+        padding: 21px
+        background-color: #ffffff
+        border-radius: 2px
+        position: relative
+        overflow: hidden
+        border: 1px solid #d9d9d977
+        border-left: 4px solid $primary
+        +media-only-mobile
+            padding-top: 56px
+            border-left: 1px solid #d9d9d977
+        &:after
+            position: absolute
+            // content: ""
+            top: 0
+            left: 0
+            width: 4px
+            background-color: $primary
+            height: 100%
+        &>._inner-row
+            &>._left
+                &>._left-row
+                    display: flex
+                    align-items: center
+                    justify-content: space-between
+                    margin-right: 73px
+                    position: relative
+                    +media-only-mobile
+                        margin-right: 0px
+                        align-items: flex-start
+                    &>div
+                        &>._title
+                            font-weight: 500
+                            white-space: nowrap
+                            // display: flex
+                            overflow: hidden
+                            text-overflow: ellipsis
+                            width: 100%
+                            +media-only-mobile
+                                width: calc(100% - 70px)
+                        &>._tags
+                            +media-only-mobile
+                                margin: 7px 0px
+                                display: flex
+                                justify-content: space-between
+                        &>div>span
+                            color: #777777
+                            font-size: 12px
+                            margin-right: 7px
+                        &._details
+                            overflow: hidden
+                        &._price
+                            font-size: 18px
+                            color: #222222
+                            margin-left: 31px
+                            +media-only-mobile
+                                min-width: 50px
+                                position: absolute
+                                top: 0px
+                                right: 0px
+
+            &>._right
+                display: flex
+                align-items: center
+                height: 100%
+                position: initial!important
+                +media-only-mobile
+                    margin-top: 11px
+                    padding-top: 9px
+                    margin-bottom: -11px
+                    border-top: 1px solid #d9d9d977
+                &>div
+                    display: flex
+                    height: 100%
+                    width: 100%
+                    margin-left: 51px
+                    +media-only-mobile
+                        margin-left: 0px
+                        justify-content: space-between
+                        &>div
+                            &._time
+                                justify-content: flex-start
+                    &>div
+                        flex-flow: 1
+                        flex-grow: 1
+                        width: 33.33%
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        &._status
+                            justify-content: flex-start
+                            +media-only-mobile
+                                position: absolute
+                                top: 21px
+                                left: 0px
+                                &>span
+                                    border-radius: 0px 50px 50px 0px!important
+                                    white-space: nowrap
+                            &>span
+                                padding: 2px 9px
+                                background-color: $primary
+                                font-size: 11px
+                                color: $primary-invert
+                                display: flex
+                                align-items: center
+                                border-radius: 50px
+                        &._time
+                            font-size: 12px
+                            &>span
+                                &._s
+                                    font-size: 16px
+                                    color: #333333
+                                    &>i
+                                        color: orange
+                                        font-weight: 400
+                                &>i
+                                    margin-right: 4px
+                        &._actn
+                            justify-content: flex-end
+    &.st-req
+        &>._inner
+            border-left-color: #4db2d4
+            &>._inner-row
+                &>._right
+                    &>div
+                        &>div
+                            &._status
+                                &>span
+                                    background-color: #4db2d4
+    &.st-rev
+        &>._inner
+            border-left-color: #f4a752
+            &>._inner-row
+                &>._right
+                    &>div
+                        &>div
+                            &._status
+                                &>span
+                                    background-color: #f4a752
+    &.st-mis
+        &>._inner
+            border-left-color: #f15c67
+            &>._inner-row
+                &>._right
+                    &>div
+                        &>div
+                            &._status
+                                &>span
+                                    background-color: #f15c67
+    &.card-view
+        +media-only-desktop
+            max-width: 320px
+            &>._inner
+                padding-top: 56px
+                border-left: 1px solid #d9d9d977
+                margin: 11px
+                &>._inner-row
+                    display: block
+                    &>div
+                        width: 100%!important
+                    &>._left
+                        &>._left-row
+                            margin-right: 0px
+                            align-items: flex-start
+                            &>div
+                                &>._title
+                                    // position: absolute
+                                    // top: 21px
+                                    // left: 0px
+                                    width: calc(100% - 70px)
+                                    &>span
+                                        border-radius: 0px 50px 50px 0px!important
+                                        white-space: nowrap
+                                &>._tags
+                                    margin: 7px 0px
+                                    display: flex
+                                    justify-content: space-between
+                                &._price
+                                    min-width: 50px
+                                    position: absolute
+                                    top: 0px
+                                    right: 0px
+                    &>._right
+                        margin-top: 11px
+                        padding-top: 9px
+                        margin-bottom: -11px
+                        border-top: 1px solid #d9d9d977
+                        &>div
+                            margin-left: 0px
+                            justify-content: space-between
+                            &>div
+                                &._time
+                                    justify-content: flex-start
+                                &._status
+                                    position: absolute
+                                    top: 21px
+                                    left: 0px
+                                    &>span
+                                        border-radius: 0px 50px 50px 0px!important
+                                        white-space: nowrap
+

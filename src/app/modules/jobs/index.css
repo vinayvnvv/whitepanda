@@ -1,0 +1,18 @@
+.Jobs > ._view {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+  .Jobs > ._view > span {
+    margin-right: 9px;
+    color: #888888; }
+
+@media screen and (min-width: 961px) {
+  .Jobs > div > .lists.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around; } }
+
+.Jobs > div > ._page {
+  display: flex;
+  justify-content: center; }

@@ -1,0 +1,46 @@
+.app-tabs {
+  box-shadow: 0px 0px 2px 2px #d9d9d9;
+  background-color: #ffffff;
+  padding-top: calc(56px + 30px); }
+  @media screen and (max-width: 960px) {
+    .app-tabs {
+      padding-top: 0px;
+      box-shadow: none; } }
+  .app-tabs > ._tabs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    @media screen and (max-width: 960px) {
+      .app-tabs > ._tabs {
+        flex-direction: row; } }
+    .app-tabs > ._tabs > ._tab {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 47px;
+      position: relative; }
+      .app-tabs > ._tabs > ._tab > i {
+        font-size: 21px; }
+      .app-tabs > ._tabs > ._tab:after {
+        content: "";
+        height: 100%;
+        position: absolute;
+        background-color: #3ebbb3;
+        right: 0;
+        top: 0;
+        width: 3px;
+        display: none; }
+        @media screen and (max-width: 960px) {
+          .app-tabs > ._tabs > ._tab:after {
+            height: 3px;
+            width: 100%; } }
+      .app-tabs > ._tabs > ._tab.active > i {
+        color: #3ebbb3; }
+      .app-tabs > ._tabs > ._tab.active:after {
+        display: block; }
+      .app-tabs > ._tabs > ._tab:hover {
+        cursor: pointer; }
+        .app-tabs > ._tabs > ._tab:hover:after {
+          display: block; }

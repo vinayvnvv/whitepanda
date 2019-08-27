@@ -1,0 +1,10 @@
+html, body {
+  font-family: "Fira Sans", sans-serif !important;
+  margin: 0 auto;
+  background-color: #ffffff !important; }
+  @media screen and (max-width: 960px) {
+    html, body {
+      background-color: #f9f9f988 !important; } }
+
+body {
+  height: auto !important; }

@@ -1,0 +1,180 @@
+.JobItem > ._inner {
+  margin-bottom: 17px;
+  padding: 21px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #d9d9d977;
+  border-left: 4px solid #3ebbb3; }
+  @media screen and (max-width: 960px) {
+    .JobItem > ._inner {
+      padding-top: 56px;
+      border-left: 1px solid #d9d9d977; } }
+  .JobItem > ._inner:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    background-color: #3ebbb3;
+    height: 100%; }
+  .JobItem > ._inner > ._inner-row > ._left > ._left-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 73px;
+    position: relative; }
+    @media screen and (max-width: 960px) {
+      .JobItem > ._inner > ._inner-row > ._left > ._left-row {
+        margin-right: 0px;
+        align-items: flex-start; } }
+    .JobItem > ._inner > ._inner-row > ._left > ._left-row > div > ._title {
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 100%; }
+      @media screen and (max-width: 960px) {
+        .JobItem > ._inner > ._inner-row > ._left > ._left-row > div > ._title {
+          width: calc(100% - 70px); } }
+    @media screen and (max-width: 960px) {
+      .JobItem > ._inner > ._inner-row > ._left > ._left-row > div > ._tags {
+        margin: 7px 0px;
+        display: flex;
+        justify-content: space-between; } }
+    .JobItem > ._inner > ._inner-row > ._left > ._left-row > div > div > span {
+      color: #777777;
+      font-size: 12px;
+      margin-right: 7px; }
+    .JobItem > ._inner > ._inner-row > ._left > ._left-row > div._details {
+      overflow: hidden; }
+    .JobItem > ._inner > ._inner-row > ._left > ._left-row > div._price {
+      font-size: 18px;
+      color: #222222;
+      margin-left: 31px; }
+      @media screen and (max-width: 960px) {
+        .JobItem > ._inner > ._inner-row > ._left > ._left-row > div._price {
+          min-width: 50px;
+          position: absolute;
+          top: 0px;
+          right: 0px; } }
+  .JobItem > ._inner > ._inner-row > ._right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: initial !important; }
+    @media screen and (max-width: 960px) {
+      .JobItem > ._inner > ._inner-row > ._right {
+        margin-top: 11px;
+        padding-top: 9px;
+        margin-bottom: -11px;
+        border-top: 1px solid #d9d9d977; } }
+    .JobItem > ._inner > ._inner-row > ._right > div {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      margin-left: 51px; }
+      @media screen and (max-width: 960px) {
+        .JobItem > ._inner > ._inner-row > ._right > div {
+          margin-left: 0px;
+          justify-content: space-between; }
+          .JobItem > ._inner > ._inner-row > ._right > div > div._time {
+            justify-content: flex-start; } }
+      .JobItem > ._inner > ._inner-row > ._right > div > div {
+        flex-flow: 1;
+        flex-grow: 1;
+        width: 33.33%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .JobItem > ._inner > ._inner-row > ._right > div > div._status {
+          justify-content: flex-start; }
+          @media screen and (max-width: 960px) {
+            .JobItem > ._inner > ._inner-row > ._right > div > div._status {
+              position: absolute;
+              top: 21px;
+              left: 0px; }
+              .JobItem > ._inner > ._inner-row > ._right > div > div._status > span {
+                border-radius: 0px 50px 50px 0px !important;
+                white-space: nowrap; } }
+          .JobItem > ._inner > ._inner-row > ._right > div > div._status > span {
+            padding: 2px 9px;
+            background-color: #3ebbb3;
+            font-size: 11px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            border-radius: 50px; }
+        .JobItem > ._inner > ._inner-row > ._right > div > div._time {
+          font-size: 12px; }
+          .JobItem > ._inner > ._inner-row > ._right > div > div._time > span._s {
+            font-size: 16px;
+            color: #333333; }
+            .JobItem > ._inner > ._inner-row > ._right > div > div._time > span._s > i {
+              color: orange;
+              font-weight: 400; }
+          .JobItem > ._inner > ._inner-row > ._right > div > div._time > span > i {
+            margin-right: 4px; }
+        .JobItem > ._inner > ._inner-row > ._right > div > div._actn {
+          justify-content: flex-end; }
+
+.JobItem.st-req > ._inner {
+  border-left-color: #4db2d4; }
+  .JobItem.st-req > ._inner > ._inner-row > ._right > div > div._status > span {
+    background-color: #4db2d4; }
+
+.JobItem.st-rev > ._inner {
+  border-left-color: #f4a752; }
+  .JobItem.st-rev > ._inner > ._inner-row > ._right > div > div._status > span {
+    background-color: #f4a752; }
+
+.JobItem.st-mis > ._inner {
+  border-left-color: #f15c67; }
+  .JobItem.st-mis > ._inner > ._inner-row > ._right > div > div._status > span {
+    background-color: #f15c67; }
+
+@media screen and (min-width: 961px) {
+  .JobItem.card-view {
+    max-width: 320px; }
+    .JobItem.card-view > ._inner {
+      padding-top: 56px;
+      border-left: 1px solid #d9d9d977;
+      margin: 11px; }
+      .JobItem.card-view > ._inner > ._inner-row {
+        display: block; }
+        .JobItem.card-view > ._inner > ._inner-row > div {
+          width: 100% !important; }
+        .JobItem.card-view > ._inner > ._inner-row > ._left > ._left-row {
+          margin-right: 0px;
+          align-items: flex-start; }
+          .JobItem.card-view > ._inner > ._inner-row > ._left > ._left-row > div > ._title {
+            width: calc(100% - 70px); }
+            .JobItem.card-view > ._inner > ._inner-row > ._left > ._left-row > div > ._title > span {
+              border-radius: 0px 50px 50px 0px !important;
+              white-space: nowrap; }
+          .JobItem.card-view > ._inner > ._inner-row > ._left > ._left-row > div > ._tags {
+            margin: 7px 0px;
+            display: flex;
+            justify-content: space-between; }
+          .JobItem.card-view > ._inner > ._inner-row > ._left > ._left-row > div._price {
+            min-width: 50px;
+            position: absolute;
+            top: 0px;
+            right: 0px; }
+        .JobItem.card-view > ._inner > ._inner-row > ._right {
+          margin-top: 11px;
+          padding-top: 9px;
+          margin-bottom: -11px;
+          border-top: 1px solid #d9d9d977; }
+          .JobItem.card-view > ._inner > ._inner-row > ._right > div {
+            margin-left: 0px;
+            justify-content: space-between; }
+            .JobItem.card-view > ._inner > ._inner-row > ._right > div > div._time {
+              justify-content: flex-start; }
+            .JobItem.card-view > ._inner > ._inner-row > ._right > div > div._status {
+              position: absolute;
+              top: 21px;
+              left: 0px; }
+              .JobItem.card-view > ._inner > ._inner-row > ._right > div > div._status > span {
+                border-radius: 0px 50px 50px 0px !important;
+                white-space: nowrap; } }

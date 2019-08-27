@@ -1,0 +1,77 @@
+@import './util/vars.sass'
+@import './util/mixins.sass'
+.text-right
+	text-align: right
+.text-center
+	text-align: center
+
+.display-none
+	display: none
+.display-none-strict
+	display: none!important
+.text-ellipsis
+	white-space: nowrap
+	overflow: hidden
+	text-overflow: ellipsis
+	display: inline-block
+
+
+.text-primary
+	color: $primary
+.text-success
+	color: $success
+.text-warning
+	color: $warning
+.text-info
+	color: $info
+.text-error
+	color: $input-error
+
+// flex
+.flex
+	display: flex
+.flex-column
+	flex-direction: column
+.inline-flex
+	display: inline-flex
+.flex-align-center
+	align-items: center
+.flex-justify-center
+	justify-content: center
+.flex-center
+	align-items: center
+	justify-content: center
+.flex-justify-end
+	justify-content: flex-end
+.flex-justify-start
+	justify-content: flex-start
+.flex-justify-space-between
+	justify-content: space-between
+.flex-align-end
+	align-items: flex-end
+.flex-align-start
+	align-items: flex-start
+
+.oveflow-hidden
+	overflow: hidden
+
+.font-weight-700
+	font-weight: 700
+
+.btn
+	padding: 0 21px!important
+	height: 30px!important
+	min-width: 80px
+	&.outline
+		color: $primary
+		border-color: $primary
+
+
+@keyframes slide-up-anim
+	from
+		transform: translateY(20px)
+	to
+		transform: translateY(0px)
+
+.slide-up
+	animation: slide-up-anim 0.3s ease-out

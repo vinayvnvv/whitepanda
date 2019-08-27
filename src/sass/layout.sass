@@ -1,0 +1,43 @@
+@import './util/vars.sass'
+@import './util/mixins.sass'
+.App
+    &>.app-header
+        display: flex
+        height: $app-header-height
+        min-height: $app-header-height
+        align-items: center
+        position: fixed
+        top: 0
+        left: 0
+        width: 100%
+        z-index: 3
+        padding-left: $app-tabs-width
+        +media-only-mobile
+            padding-left: 0px
+    &>.app-tabs
+        position: fixed
+        left: 0
+        top: 0
+        height: 100%
+        width: $app-tabs-width
+        max-width: $app-tabs-width
+        z-index: 4
+        overflow: hidden
+        +media-only-mobile
+            height: $app-tabs-height-mobile
+            max-height: $app-tabs-height-mobile
+            max-width: 100%
+            width: 100%
+            top: initial
+            bottom: 0px
+    &>.app-content
+        padding-top: $app-header-height
+        margin-left: $app-tabs-width
+        +media-only-mobile
+            margin-left: 0px
+            padding-bottom: $app-tabs-height-mobile
+        &>.app-layout
+            padding: $layout-padding
+            max-width: $layout-max-width
+            margin: 0 auto
+            width: 100%

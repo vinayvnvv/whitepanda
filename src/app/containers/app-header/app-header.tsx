@@ -11,7 +11,7 @@ export const AppHeader: React.FC = () => (
             <Col className="_right">
                 <div className="_item _notification">
                     <Badge count={8}>
-                        <Icon type="bell" style={{fontSize: 21}}/>
+                        <img src={require('./../../../assets/icons/notification.svg')} alt=""/>
                     </Badge>
                 </div>
                 <div className="_item">

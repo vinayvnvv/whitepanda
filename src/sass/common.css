@@ -72,8 +72,6 @@
   font-weight: 700; }
 
 .btn {
-  padding: 0 21px !important;
-  height: 30px !important;
   min-width: 80px; }
   .btn.outline {
     color: #3ebbb3;

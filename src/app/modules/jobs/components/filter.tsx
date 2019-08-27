@@ -58,7 +58,8 @@ const FilterComponent: React.FC<IProps> = (props: IProps) => {
                                         props.onChange({}, {});
                                     }
                                 } 
-                                type="link">Clear</Button>
+                                style={{color: "#8798ad"}}
+                                type="link">Clear All</Button>
                         </Col>
                     </Row>
                 </Col>

@@ -1,7 +1,7 @@
 .app-tabs {
   box-shadow: 0px 0px 2px 2px #d9d9d9;
   background-color: #ffffff;
-  padding-top: calc(56px + 30px); }
+  padding-top: calc(64px + 30px); }
   @media screen and (max-width: 960px) {
     .app-tabs {
       padding-top: 0px;

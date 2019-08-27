@@ -1,7 +1,11 @@
+.Jobs > ._header {
+  font-size: 36px;
+  margin: 9px 0px; }
+
 .Jobs > ._view {
   display: flex;
   align-items: center;
-  justify-content: flex-end; }
+  justify-content: flex-start; }
   .Jobs > ._view > span {
     margin-right: 9px;
     color: #888888; }

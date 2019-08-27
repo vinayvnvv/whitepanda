@@ -1,5 +1,5 @@
 html, body {
-  font-family: "Fira Sans", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   margin: 0 auto;
   background-color: #ffffff !important; }
   @media screen and (max-width: 960px) {
@@ -83,8 +83,6 @@ body {
   font-weight: 700; }
 
 .btn {
-  padding: 0 21px !important;
-  height: 30px !important;
   min-width: 80px; }
   .btn.outline {
     color: #3ebbb3;
@@ -174,15 +172,15 @@ body {
 
 .App > .app-header {
   display: flex;
-  height: 56px;
-  min-height: 56px;
+  height: 64px;
+  min-height: 64px;
   align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 3;
-  padding-left: 62px; }
+  padding-left: 64px; }
   @media screen and (max-width: 960px) {
     .App > .app-header {
       padding-left: 0px; } }
@@ -192,8 +190,8 @@ body {
   left: 0;
   top: 0;
   height: 100%;
-  width: 62px;
-  max-width: 62px;
+  width: 64px;
+  max-width: 64px;
   z-index: 4;
   overflow: hidden; }
   @media screen and (max-width: 960px) {
@@ -206,8 +204,8 @@ body {
       bottom: 0px; } }
 
 .App > .app-content {
-  padding-top: 56px;
-  margin-left: 62px; }
+  padding-top: 64px;
+  margin-left: 64px; }
   @media screen and (max-width: 960px) {
     .App > .app-content {
       margin-left: 0px;

@@ -46,9 +46,11 @@ export class Jobs extends React.Component<any, IState> {
     render() {
         return (
             <div className="Jobs slide-up">
+                <div className="_header">Your Jobs</div>
                 <div className="_view hide-mobile-strict">
                     <span>View:</span>
                     <Radio.Group 
+                        size={'small'}
                         defaultValue={this.state.view} 
                         buttonStyle="solid" 
                         onChange={this.onViewChange}>

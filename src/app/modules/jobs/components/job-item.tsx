@@ -1,7 +1,7 @@
 import React from 'react';
 import './job-item.css';
 import { IjobData } from '..';
-import { Col, Row, Button, Icon } from 'antd';
+import { Col, Row, Button, Icon, Divider } from 'antd';
 interface IProps {
     data: IjobData;
     view: string;
@@ -32,7 +32,7 @@ export const JobItem: React.FC<IProps> = (props: IProps) => {
                                     <span>{data.words} words</span>
                                 </div>
                             </div>
-                            <div className="_price">$ {data.price}</div>
+                            <div className="_price">₹{data.price}</div>
                         </div>
                     </Col>
                     <Col xs={24} sm={11} className="_right">

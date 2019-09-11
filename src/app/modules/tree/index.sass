@@ -1,0 +1,53 @@
+$secondary: #bc352b
+.Tree
+    width: 100%
+    &>table
+        width: 100%
+        border-collapse: collapse
+        &>thead
+            &>tr
+                &>th
+                    &._ic
+                        width: 10%
+                    &._ttl
+                        width: 30%
+                        text-align: right
+                    &._val
+                        width: 10%
+                    &._bar
+                        width: 40%
+                    &._lock
+                        width: 10%
+        &>tbody
+            &>tr
+                &>td
+                    border-bottom: 1px solid #d9d9d9
+                    padding-top: 6px
+                    padding-bottom: 6px
+                    &._ic
+                        &>i
+                            font-size: 22px
+                            color: #cccccc
+                            cursor: pointer
+                    &._ttl
+                        text-transform: uppercase
+                        font-weight: 500
+                        font-size: 12px
+                    &._val
+                        color: #aaaaaa
+                    &._bar
+                        padding-left: 13px
+                    &._lock
+                        font-size: 20px
+                        color: $secondary
+                        font-weight: 500
+                &:last-child
+                    &>td
+                        border: none
+
+
+    .ant-slider-track
+        background-color: $secondary
+    .ant-slider-handle
+        border-color: $secondary
+                    

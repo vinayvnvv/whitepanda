@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Traditional Medai",
+        "value": 62.2,
+        "locked": false,
+        "child": [
+            {
+                "title": "tv",
+                "value": 52.2,
+                "locked": false,
+                "child": [
+                    {
+                        "title": "Digital tv",
+                        "value": 59.2,
+                        "locked": false
+                    },
+                    {
+                        "title": "Addressable tv",
+                        "value": 1.0,
+                        "locked": false
+                    },
+                    {
+                        "title": "Led tv",
+                        "value": 2.0,
+                        "locked": false
+                    }
+                ]
+            },
+            {
+                "title": "Regigerator",
+                "value": 10,
+                "locked": false,
+                "child": [
+                    {
+                        "title": "Digital Refigerator",
+                        "value": 10,
+                        "locked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Digital Medai",
+        "value": 27.8,
+        "locked": false,
+        "child": [
+            {
+                "title": "Digital Video",
+                "value": 24.2,
+                "locked": false
+            },
+            {
+                "title": "Social Media",
+                "value": 13.5,
+                "locked": false
+            }
+        ]
+    },
+    {
+        "title": "Local Medai",
+        "value": 10,
+        "locked": false,
+        "child": [
+            {
+                "title": "Digital Video",
+                "value": 5.5,
+                "locked": false
+            },
+            {
+                "title": "Social Media",
+                "value": 4.5,
+                "locked": false
+            }
+        ]
+    }
+]

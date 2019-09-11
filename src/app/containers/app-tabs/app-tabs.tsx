@@ -9,7 +9,8 @@ interface ITabdata {
 const tabsData: ITabdata[] = [
     {icon: "appstore", url: '/'},
     {icon: "search", url: '/search'},
-    {icon: "shopping", url: '/shop'}
+    {icon: "shopping", url: '/shop'},
+    {icon: "cluster", url: '/tree'}
 ]
 
 export const AppTabs: React.FC = () => (

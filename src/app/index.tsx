@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Jobs } from './modules/jobs';
 import { AppHeader } from './containers/app-header/app-header';
 import { AppTabs } from './containers/app-tabs/app-tabs';
+import { Tree } from './modules/tree';
 const WhitePandaApp: React.FC = () => {
     return (
         <Router>
@@ -14,6 +15,7 @@ const WhitePandaApp: React.FC = () => {
                 <Route path="/" exact component={Jobs} />
                 <Route path="/search" exact component={Search} />
                 <Route path="/shop" exact component={Shop} />
+                <Route path="/tree" exact component={Tree} />
               </div>
             </div>
           </div>

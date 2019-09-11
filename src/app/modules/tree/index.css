@@ -1,0 +1,42 @@
+.Tree {
+  width: 100%; }
+  .Tree > table {
+    width: 100%;
+    border-collapse: collapse; }
+    .Tree > table > thead > tr > th._ic {
+      width: 10%; }
+    .Tree > table > thead > tr > th._ttl {
+      width: 30%;
+      text-align: right; }
+    .Tree > table > thead > tr > th._val {
+      width: 10%; }
+    .Tree > table > thead > tr > th._bar {
+      width: 40%; }
+    .Tree > table > thead > tr > th._lock {
+      width: 10%; }
+    .Tree > table > tbody > tr > td {
+      border-bottom: 1px solid #d9d9d9;
+      padding-top: 6px;
+      padding-bottom: 6px; }
+      .Tree > table > tbody > tr > td._ic > i {
+        font-size: 22px;
+        color: #cccccc;
+        cursor: pointer; }
+      .Tree > table > tbody > tr > td._ttl {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 12px; }
+      .Tree > table > tbody > tr > td._val {
+        color: #aaaaaa; }
+      .Tree > table > tbody > tr > td._bar {
+        padding-left: 13px; }
+      .Tree > table > tbody > tr > td._lock {
+        font-size: 20px;
+        color: #bc352b;
+        font-weight: 500; }
+    .Tree > table > tbody > tr:last-child > td {
+      border: none; }
+  .Tree .ant-slider-track {
+    background-color: #bc352b; }
+  .Tree .ant-slider-handle {
+    border-color: #bc352b; }
